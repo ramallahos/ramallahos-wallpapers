@@ -12,7 +12,6 @@ sha256sums=('SKIP')
 
 package() {
     cd ${pkgname}
-    install -d "${pkgdir}/usr/share/wallpapers/$pkgname"
     cp -r src/$pkgname/* "${pkgdir}/usr/share/wallpapers/"
 
 }
